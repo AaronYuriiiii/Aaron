@@ -267,3 +267,4 @@ REFRESH_INTERVAL_SECONDS = 5
 if active_reminders_exist:
     time.sleep(REFRESH_INTERVAL_SECONDS)
     st.rerun()
+    
